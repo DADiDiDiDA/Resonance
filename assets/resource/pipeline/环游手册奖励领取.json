@@ -3,13 +3,10 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1784941414726,
-            "isModifiedExternally": false,
-            "filePath": "D:\\Application\\Automate\\Git-Maawork\\Resonance\\assets\\resource\\pipeline\\环游手册奖励领取.json",
             "savedViewport": {
-                "x": -3861,
-                "y": 462,
-                "zoom": 0.66
+                "x": -2754,
+                "y": 549,
+                "zoom": 0.54
             },
             "filename": "环游手册奖励领取",
             "version": "v1.7.4"
@@ -18,29 +15,28 @@
     "$__mpe_external_返回主界面开始_环游手册奖励领取": {
         "$__mpe_code": {
             "position": {
-                "x": 6648,
-                "y": 24
+                "x": 6866,
+                "y": 61
             }
         }
     },
     "$__mpe_external_进入选项菜单开始_环游手册奖励领取": {
         "$__mpe_code": {
             "position": {
-                "x": 5156,
-                "y": 21
+                "x": 5263,
+                "y": 41
             }
         }
     },
     "开始判断有没有待领取奖励-环游手册": {
         "post_delay": 3000,
         "next": [
-            "开始领取任务奖励-环游手册",
-            "返回主界面开始"
+            "开始领取任务奖励-环游手册"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6307,
-                "y": -367
+                "x": 6463,
+                "y": -359
             }
         }
     },
@@ -93,6 +89,9 @@
             "type": "Click"
         },
         "post_delay": 8000,
+        "next": [
+            "开始判断有没有待领取奖励-环游手册"
+        ],
         "$__mpe_code": {
             "position": {
                 "x": 6313,

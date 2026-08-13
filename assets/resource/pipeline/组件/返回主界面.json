@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1784941121510,
+            "lastSyncTime": 1785890640564,
             "isModifiedExternally": false,
             "filePath": "D:\\Application\\Automate\\Git-Maawork\\Resonance\\assets\\resource\\pipeline\\组件\\返回主界面.json",
             "savedViewport": {
-                "x": -633,
-                "y": 94,
-                "zoom": 0.66
+                "x": -605,
+                "y": -421,
+                "zoom": 0.65
             },
             "filename": "返回主界面",
             "version": "v1.7.4"
@@ -49,6 +49,31 @@
             }
         }
     },
+    "开始进入游戏": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    457,
+                    504,
+                    360,
+                    134
+                ],
+                "expected": [
+                    "进入游戏"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 2132,
+                "y": 527
+            }
+        }
+    },
     "按ESc返回主界面": {
         "action": {
             "type": "ClickKey",
@@ -61,8 +86,8 @@
         },
         "$__mpe_code": {
             "position": {
-                "x": 2149,
-                "y": 393
+                "x": 2070,
+                "y": 1226
             }
         }
     },
@@ -91,18 +116,28 @@
             }
         }
     },
-    "返回主界面开始": {
-        "post_delay": 2000,
-        "next": [
-            "判断是否在主界面",
-            "[JumpBack]有取消按钮",
-            "[JumpBack]每日签到界面退出",
-            "[JumpBack]按ESc返回主界面"
-        ],
+    "有新活动需要解锁": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    347,
+                    541,
+                    925,
+                    170
+                ],
+                "expected": [
+                    "立即前往"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
         "$__mpe_code": {
             "position": {
-                "x": 1723,
-                "y": 50
+                "x": 2114,
+                "y": 730
             }
         }
     },
@@ -111,10 +146,10 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    555,
-                    662,
+                    552,
+                    645,
                     168,
-                    49
+                    67
                 ],
                 "expected": [
                     "空白区域"
@@ -128,6 +163,76 @@
             "position": {
                 "x": 2170,
                 "y": 176
+            }
+        }
+    },
+    "返回主界面开始": {
+        "post_delay": 2000,
+        "rate_limit": 500,
+        "next": [
+            "判断是否在主界面",
+            "[JumpBack]有取消按钮",
+            "[JumpBack]每日签到界面退出",
+            "[JumpBack]需要更新资源",
+            "[JumpBack]开始进入游戏",
+            "[JumpBack]有新活动需要解锁",
+            "[JumpBack]左上角返回按键",
+            "[JumpBack]按ESc返回主界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1723,
+                "y": 50
+            }
+        }
+    },
+    "需要更新资源": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    531,
+                    476,
+                    231,
+                    66
+                ],
+                "expected": [
+                    "确认"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 2149,
+                "y": 370
+            }
+        }
+    },
+    "左上角返回按键": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    31,
+                    9,
+                    115,
+                    61
+                ],
+                "template": [
+                    "返回箭头.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 2104,
+                "y": 945
             }
         }
     }
