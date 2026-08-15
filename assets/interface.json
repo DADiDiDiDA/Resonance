@@ -5,7 +5,7 @@
     "contact": "",
     "license": "MIT",
     "welcome": "欢迎使用雷索纳斯自动化助手，只可以完成日常欧~",
-    "version": "0.1.0",
+    "version": "0.1.1",
 
     "controller": [
         {
