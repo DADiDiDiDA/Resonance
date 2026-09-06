@@ -3,16 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1787235329903,
-            "isModifiedExternally": false,
-            "filePath": "D:\\Application\\Automate\\Git-Maawork\\Resonance\\assets\\resource\\pipeline\\返回主界面.json",
             "savedViewport": {
-                "x": -1125,
-                "y": 76,
-                "zoom": 0.99
+                "x": -527,
+                "y": -628,
+                "zoom": 0.66
             },
             "filename": "返回主界面",
-            "version": "v1.8.0"
+            "version": "v1.9.2"
         }
     },
     "判断是否在主界面": {
@@ -132,23 +129,6 @@
             }
         }
     },
-    "按ESc返回主界面": {
-        "action": {
-            "type": "ClickKey",
-            "param": {
-                "key": [
-                    4,
-                    111
-                ]
-            }
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 2058,
-                "y": 1452
-            }
-        }
-    },
     "有取消按钮": {
         "recognition": {
             "type": "OCR",
@@ -226,7 +206,7 @@
     },
     "返回主界面开始": {
         "post_delay": 2000,
-        "rate_limit": 500,
+        "timeout": 300000,
         "next": [
             "判断是否在主界面",
             "[JumpBack]有取消按钮",
@@ -235,13 +215,12 @@
             "[JumpBack]开始进入游戏",
             "[JumpBack]有新活动需要解锁",
             "[JumpBack]左上角返回按键",
-            "[JumpBack]左下角返回",
-            "[JumpBack]按ESc返回主界面"
+            "[JumpBack]左下角返回"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 1723,
-                "y": 50
+                "x": 1443,
+                "y": 29
             }
         }
     },

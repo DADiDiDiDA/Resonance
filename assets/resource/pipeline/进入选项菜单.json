@@ -3,23 +3,20 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1784941229807,
-            "isModifiedExternally": false,
-            "filePath": "D:\\Application\\Automate\\Git-Maawork\\Resonance\\assets\\resource\\pipeline\\组件\\进入选项菜单.json",
             "savedViewport": {
-                "x": -1628,
-                "y": 384,
-                "zoom": 0.66
+                "x": -2343,
+                "y": 342,
+                "zoom": 0.87
             },
             "filename": "进入选项菜单",
-            "version": "v1.7.4"
+            "version": "v1.9.2"
         }
     },
     "$__mpe_external_返回主界面开始_进入选项菜单": {
         "$__mpe_code": {
             "position": {
-                "x": 3521,
-                "y": 181
+                "x": 3495,
+                "y": 210
             }
         }
     },
@@ -57,8 +54,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 3450,
-                "y": -472
+                "x": 3457,
+                "y": -502
             }
         }
     },
@@ -94,8 +91,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 3502,
-                "y": -171
+                "x": 3427,
+                "y": -173
             }
         }
     },
@@ -108,8 +105,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 3132,
-                "y": -101
+                "x": 2864,
+                "y": -42
             }
         }
     },
