@@ -4,12 +4,12 @@
             "prefix": "",
             "coordinateMode": "absolute-v1",
             "savedViewport": {
-                "x": -527,
-                "y": -628,
-                "zoom": 0.66
+                "x": -915,
+                "y": -91,
+                "zoom": 0.76
             },
             "filename": "返回主界面",
-            "version": "v1.9.2"
+            "version": "v1.10.0"
         }
     },
     "判断是否在主界面": {
@@ -56,6 +56,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 2107,
@@ -89,6 +90,7 @@
                 ]
             }
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 2091,
@@ -122,6 +124,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 2125,
@@ -147,6 +150,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 2138,
@@ -172,6 +176,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 2125,
@@ -197,10 +202,11 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
-                "x": 2143,
-                "y": 123
+                "x": 2128,
+                "y": 81
             }
         }
     },
@@ -242,6 +248,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 2128,
