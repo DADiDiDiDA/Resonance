@@ -4,12 +4,12 @@
             "prefix": "",
             "coordinateMode": "absolute-v1",
             "savedViewport": {
-                "x": -905,
-                "y": -224,
-                "zoom": 0.75
+                "x": -1214,
+                "y": -621,
+                "zoom": 0.87
             },
             "filename": "返回主界面",
-            "version": "v1.10.1"
+            "version": "v2.0.3"
         }
     },
     "判断是否在主界面": {
@@ -160,17 +160,14 @@
         }
     },
     "有新活动需要解锁": {
+        "max_hit": 3,
         "recognition": {
             "type": "OCR",
             "param": {
-                "roi": [
-                    347,
-                    541,
-                    925,
-                    170
-                ],
                 "expected": [
-                    "立即前往"
+                    "立即前往",
+                    "前往活动",
+                    "活动"
                 ]
             }
         },
@@ -180,8 +177,8 @@
         "post_delay": 2000,
         "$__mpe_code": {
             "position": {
-                "x": 2094,
-                "y": 799
+                "x": 2092,
+                "y": 789
             }
         }
     },
