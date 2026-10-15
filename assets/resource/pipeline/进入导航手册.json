@@ -38,6 +38,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "进入导航手册结束"
         ],
