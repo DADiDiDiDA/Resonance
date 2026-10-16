@@ -42,39 +42,39 @@
             "name": "🚀 登录游戏",
             "entry": "返回主界面开始",
             "default_check": true,
-            "description": "自动处理游戏启动、更新和登录流程"
+            "description": "进入游戏"
         },
         {
             "name": "⚔️ 刷行动汇总第一次",
             "entry": "每日行动刷体力开始",
             "default_check": true,
-            "description": "自动刷取指定的关卡类型及具体关卡（只用扫荡方式）",
+            "description": "自动刷取关卡（只用扫荡方式）",
             "option": ["刷体力关卡类型", "刷体力具体关卡"]
         },
         {
             "name": "📬 派遣委托",
             "entry": "派遣任务开始",
             "default_check": true,
-            "description": "自动收取并重新派遣已完成的任务"
+            "description": "自动派遣任务"
         },
         {
             "name": "⚔️ 刷行动汇总第二次",
             "entry": "每日行动刷体力开始",
             "default_check": true,
-            "description": "自动刷取指定的关卡类型及具体关卡（只用扫荡方式）",
+            "description": "自动刷取关卡（只用扫荡方式）",
             "option": ["刷体力关卡类型", "刷体力具体关卡"]
         },
         {
             "name": "📘 环游手册奖励领取",
             "entry": "环游手册奖励领取",
             "default_check": true,
-            "description": "自动领取环游手册中的任务积分奖励和等级奖励"
+            "description": "自动领取环游手册中的奖励"
         },
         {
             "name": "🎯 每日活跃度",
             "entry": "领取每日活跃度奖励开始",
             "default_check": true,
-            "description": "自动领取每日活跃度任务和累积奖励"
+            "description": "自动领取每日活跃度奖励"
         }
     ],
 
