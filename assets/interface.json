@@ -8,17 +8,17 @@
     "version": "0.1.7",
 
     "controller": [
-        {  
-            "name": "桌面端",  
-            "type": "Win32",  
-            "win32": {  
-                "class_regex": ".*",  
-                "window_regex": "雷索纳斯",  
-                "screencap": "PrintWindow",  
-                "mouse": "PostMessageWithCursorPos",  
-                "keyboard": "PostMessageWithCursorPos"  
-            }  
-        },  
+        {
+            "name": "桌面端",
+            "type": "Win32",
+            "win32": {
+                "class_regex": ".*",
+                "window_regex": "雷索纳斯",
+                "screencap": "PrintWindow",
+                "mouse": "PostMessageWithCursorPos",
+                "keyboard": "PostMessageWithCursorPos"
+            }
+        },
         {
             "name": "Android",
             "label": "安卓端",
@@ -49,7 +49,7 @@
             "entry": "每日行动刷体力开始",
             "default_check": true,
             "description": "自动刷取关卡（只用扫荡方式）",
-            "option": ["刷体力关卡类型", "刷体力具体关卡"]
+            "option": ["刷体力关卡类型"]
         },
         {
             "name": "📬 派遣委托",
@@ -62,7 +62,7 @@
             "entry": "每日行动刷体力开始",
             "default_check": true,
             "description": "自动刷取关卡（只用扫荡方式）",
-            "option": ["刷体力关卡类型", "刷体力具体关卡"]
+            "option": ["刷体力关卡类型"]
         },
         {
             "name": "📘 环游手册奖励领取",

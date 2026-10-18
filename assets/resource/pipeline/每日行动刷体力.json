@@ -4,12 +4,12 @@
             "prefix": "",
             "coordinateMode": "absolute-v1",
             "savedViewport": {
-                "x": -7263,
-                "y": 1265,
-                "zoom": 0.66
+                "x": -7407,
+                "y": 1333,
+                "zoom": 0.7
             },
             "filename": "每日行动刷体力",
-            "version": "v1.7.4"
+            "version": "v2.1.0"
         }
     },
     "每日行动刷体力开始": {
@@ -367,7 +367,7 @@
                     70
                 ],
                 "expected": [
-                    "特殊订单"
+                    "挑灯看剑"
                 ]
             }
         },
