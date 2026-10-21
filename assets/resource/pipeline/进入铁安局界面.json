@@ -53,7 +53,8 @@
         },
         "post_delay": 3000,
         "next": [
-            "选择铁安局选项"
+            "选择铁安局选项",
+            "[JumpBack]返回主界面开始"
         ],
         "$__mpe_code": {
             "position": {

@@ -84,7 +84,8 @@
         },
         "post_delay": 3000,
         "next": [
-            "领取活跃度累积奖励"
+            "领取活跃度累积奖励",
+            "[JumpBack]返回主界面开始"
         ],
         "$__mpe_code": {
             "position": {
