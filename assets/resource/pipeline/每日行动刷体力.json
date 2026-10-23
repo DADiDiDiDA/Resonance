@@ -640,8 +640,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "选中关卡-武器材质分析",
-            "[JumpBack]返回主界面开始"
+            "选中关卡-武器材质分析"
         ],
         "$__mpe_code": {
             "position": {
@@ -683,8 +682,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "选中关卡-骑士小说",
-            "[JumpBack]返回主界面开始"
+            "选中关卡-骑士小说"
         ],
         "$__mpe_code": {
             "position": {
@@ -718,8 +716,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "选中关卡-我思我在",
-            "[JumpBack]返回主界面开始"
+            "选中关卡-我思我在"
         ],
         "$__mpe_code": {
             "position": {
@@ -753,8 +750,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "选中关卡-所知所闻",
-            "[JumpBack]返回主界面开始"
+            "选中关卡-所知所闻"
         ],
         "$__mpe_code": {
             "position": {
@@ -822,8 +818,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "选中关卡-大的",
-            "[JumpBack]返回主界面开始"
+            "选中关卡-大的"
         ],
         "$__mpe_code": {
             "position": {
@@ -891,8 +886,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "选中关卡-总体围剿",
-            "[JumpBack]返回主界面开始"
+            "选中关卡-总体围剿"
         ],
         "$__mpe_code": {
             "position": {
