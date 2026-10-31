@@ -15,8 +15,8 @@
                 "class_regex": ".*",
                 "window_regex": "雷索纳斯",
                 "screencap": "PrintWindow",
-                "mouse": "PostMessageWithCursorPos",
-                "keyboard": "PostMessageWithCursorPos"
+                "mouse": "Seize",
+                "keyboard": "Seize"
             }
         },
         {
