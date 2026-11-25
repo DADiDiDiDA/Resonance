@@ -726,6 +726,7 @@
         }
     },
     "选择关卡-所知所闻滑动第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Swipe",
             "param": {
@@ -794,6 +795,7 @@
         }
     },
     "选择关卡-大的滑动第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Swipe",
             "param": {
@@ -862,6 +864,7 @@
         }
     },
     "选择关卡-总体围剿滑动第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Swipe",
             "param": {

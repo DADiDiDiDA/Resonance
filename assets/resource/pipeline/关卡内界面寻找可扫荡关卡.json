@@ -195,6 +195,7 @@
         }
     },
     "判断默认关卡是否可扫荡-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {
